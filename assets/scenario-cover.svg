@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Scenario practice cover">
+  <rect width="960" height="540" fill="#eef6f3"/>
+  <rect x="78" y="86" width="804" height="368" rx="28" fill="#ffffff" stroke="#d9e1dc" stroke-width="6"/>
+  <rect x="132" y="132" width="236" height="276" rx="18" fill="#006b5d"/>
+  <path d="M250 178v184M158 270h184" stroke="#fff" stroke-width="34" stroke-linecap="round"/>
+  <rect x="426" y="150" width="338" height="32" rx="16" fill="#17211d"/>
+  <rect x="426" y="218" width="392" height="26" rx="13" fill="#5c6963"/>
+  <rect x="426" y="274" width="334" height="26" rx="13" fill="#5c6963"/>
+  <rect x="426" y="330" width="270" height="26" rx="13" fill="#bf3f2f"/>
+</svg>

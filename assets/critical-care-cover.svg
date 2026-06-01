@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Critical care transport cover">
+  <rect width="960" height="540" fill="#f7fbff"/>
+  <rect x="90" y="96" width="780" height="348" rx="30" fill="#ffffff" stroke="#d9e1dc" stroke-width="6"/>
+  <path d="M140 298h120l42-78 56 132 58-184 54 130h96" fill="none" stroke="#bf3f2f" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="606" y="156" width="178" height="228" rx="18" fill="#006b5d"/>
+  <circle cx="696" cy="214" r="38" fill="#fff"/>
+  <rect x="654" y="282" width="84" height="22" rx="11" fill="#fff"/>
+  <rect x="636" y="322" width="120" height="18" rx="9" fill="#d9e1dc"/>
+  <rect x="132" y="384" width="430" height="22" rx="11" fill="#5c6963"/>
+</svg>

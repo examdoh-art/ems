@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practice Mode | UAE Paramedic Ready</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="dashboard.html">
+        <span class="brand-mark">PR</span>
+        <span><strong>UAE Paramedic Ready</strong><small>Practice mode</small></span>
+      </a>
+      <nav class="nav">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="exam.html">Exam Mode</a>
+        <button id="logoutBtn" class="link-button" type="button">Logout</button>
+      </nav>
+    </header>
+
+    <main id="practice" class="layout">
+      <aside class="panel controls" aria-label="Quiz controls">
+        <label for="systemSelect">System category</label>
+        <select id="systemSelect"></select>
+
+        <label for="bankSelect">Question bank</label>
+        <select id="bankSelect"></select>
+
+        <label for="searchInput">Search</label>
+        <input id="searchInput" type="search" placeholder="airway, epinephrine, refusal">
+
+        <div class="button-row">
+          <button id="shuffleBtn" type="button">Shuffle</button>
+          <button id="resetBtn" type="button" class="secondary">Reset</button>
+        </div>
+
+        <div class="stats">
+          <div><strong id="totalCount">0</strong><span>questions</span></div>
+          <div><strong id="answeredCount">0</strong><span>answered</span></div>
+          <div><strong id="correctCount">0</strong><span>correct</span></div>
+        </div>
+      </aside>
+
+      <section class="quiz-surface">
+        <div class="question-tools">
+          <button id="prevBtn" type="button" class="icon-btn" aria-label="Previous question">‹</button>
+          <span id="positionText">Question 1 of 1</span>
+          <button id="nextBtn" type="button" class="icon-btn" aria-label="Next question">›</button>
+        </div>
+
+        <article class="question-card">
+          <div class="question-meta">
+            <span id="bankLabel">Bank</span>
+            <span id="questionNumber">#1</span>
+          </div>
+          <h2 id="questionText">Loading questions...</h2>
+          <div id="options" class="options" role="list"></div>
+          <div id="feedback" class="feedback" hidden></div>
+        </article>
+
+        <div class="actions">
+          <button id="submitBtn" type="button">Submit answer</button>
+          <button id="showAnswerBtn" type="button" class="secondary">Show answer</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/questions.js"></script>
+    <script src="assets/auth.js"></script>
+    <script src="assets/quiz-core.js"></script>
+    <script src="assets/practice.js"></script>
+  </body>
+</html>

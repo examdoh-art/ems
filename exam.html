@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exam Mode | UAE Paramedic Ready</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="dashboard.html">
+        <span class="brand-mark">PR</span>
+        <span><strong>UAE Paramedic Ready</strong><small>100-question mock exam</small></span>
+      </a>
+      <nav class="nav">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="practice.html">Practice Mode</a>
+        <button id="logoutBtn" class="link-button" type="button">Logout</button>
+      </nav>
+    </header>
+
+    <main class="exam-shell">
+      <section class="exam-start" id="examStart">
+        <p class="eyebrow">Exam mode</p>
+        <h1>Start a randomized 100-question exam.</h1>
+        <p>The exam pulls from all available MCQ banks, shuffles the questions, hides rationales while testing, then shows your score and review at the end.</p>
+        <button id="startExamBtn" type="button">Start Exam</button>
+      </section>
+
+      <section id="examQuiz" class="quiz-surface exam-quiz" hidden>
+        <div class="question-tools">
+          <span id="positionText">Question 1 of 100</span>
+          <span id="examAnswered">0 answered</span>
+        </div>
+        <article class="question-card">
+          <div class="question-meta">
+            <span id="bankLabel">Bank</span>
+            <span id="questionNumber">#1</span>
+          </div>
+          <h2 id="questionText">Loading questions...</h2>
+          <div id="options" class="options" role="list"></div>
+        </article>
+        <div class="actions">
+          <button id="prevBtn" type="button" class="secondary">Previous</button>
+          <button id="nextBtn" type="button">Next</button>
+          <button id="finishExamBtn" type="button" class="danger">Finish Exam</button>
+        </div>
+      </section>
+
+      <section id="examResult" class="result-card" hidden>
+        <p class="eyebrow">Exam result</p>
+        <h1 id="resultScore">Score</h1>
+        <p id="resultSummary"></p>
+        <div class="actions">
+          <button id="restartExamBtn" type="button">New Exam</button>
+          <a class="button secondary" href="practice.html">Go to Practice</a>
+        </div>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+    </main>
+
+    <script src="assets/questions.js"></script>
+    <script src="assets/auth.js"></script>
+    <script src="assets/quiz-core.js"></script>
+    <script src="assets/exam.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | UAE Paramedic Ready</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="dashboard.html">
+        <span class="brand-mark">PR</span>
+        <span><strong>UAE Paramedic Ready</strong><small>Student dashboard</small></span>
+      </a>
+      <nav class="nav">
+        <a href="practice.html">Practice Mode</a>
+        <a href="exam.html">Exam Mode</a>
+        <button id="logoutBtn" class="link-button" type="button">Logout</button>
+      </nav>
+    </header>
+
+    <main class="dashboard">
+      <section class="welcome-card">
+        <p class="eyebrow">Welcome</p>
+        <h1 id="studentName">Student dashboard</h1>
+        <p>Choose system-based practice to study by topic, or start a randomized 100-question mock exam.</p>
+      </section>
+      <section class="dashboard-grid">
+        <a class="dashboard-card" href="practice.html">
+          <img src="assets/scenario-cover.svg" alt="">
+          <h2>System-Based Practice</h2>
+          <p>Practice questions classified by EMS system, airway, pharmacology, cardiology, respiratory, trauma, OB, pediatrics, and more.</p>
+        </a>
+        <a class="dashboard-card" href="exam.html">
+          <img src="assets/critical-care-cover.svg" alt="">
+          <h2>Exam Mode</h2>
+          <p>Automatically shuffle 100 questions and complete a mock exam with score and rationales at the end.</p>
+        </a>
+      </section>
+    </main>
+
+    <script src="assets/questions.js"></script>
+    <script src="assets/auth.js"></script>
+    <script src="assets/dashboard.js"></script>
+  </body>
+</html>

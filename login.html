@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | UAE Paramedic Ready</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body class="auth-page">
+    <main class="login-shell">
+      <section class="login-copy">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">PR</span>
+          <span><strong>UAE Paramedic Ready</strong><small>Licensure exam preparation</small></span>
+        </a>
+        <h1>Login to access MCQ practice.</h1>
+        <p>Use any email and password for this demo version. A real user account system can be connected later with Firebase, Supabase, or another backend.</p>
+      </section>
+      <form id="loginForm" class="login-card">
+        <label for="email">Email ID</label>
+        <input id="email" name="email" type="email" placeholder="student@example.com" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Enter password" required minlength="4">
+        <button type="submit">Login</button>
+        <p id="loginMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </main>
+    <script src="assets/auth.js"></script>
+  </body>
+</html>

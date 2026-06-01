@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Pharmacology cover">
+  <rect width="960" height="540" fill="#fff7f2"/>
+  <rect x="94" y="92" width="772" height="356" rx="30" fill="#ffffff" stroke="#d9e1dc" stroke-width="6"/>
+  <g transform="translate(174 142)">
+    <rect x="0" y="76" width="296" height="116" rx="58" fill="#006b5d"/>
+    <path d="M148 76v116" stroke="#fff" stroke-width="10"/>
+    <circle cx="92" cy="134" r="18" fill="#fff"/>
+    <circle cx="204" cy="134" r="18" fill="#fff"/>
+  </g>
+  <g transform="translate(560 142)">
+    <rect x="0" y="0" width="152" height="244" rx="28" fill="#bf3f2f"/>
+    <rect x="28" y="42" width="96" height="54" rx="10" fill="#fff"/>
+    <rect x="46" y="130" width="60" height="76" rx="30" fill="#fff"/>
+  </g>
+  <rect x="172" y="388" width="382" height="24" rx="12" fill="#5c6963"/>
+</svg>
